@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "UNCJeff5000",
+    "database": "music_tour",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "UNCJeff5000",
+    "database": "music_tour_test",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "UNCJeff5000",
+    "database": "music_tour_production",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  }
+}

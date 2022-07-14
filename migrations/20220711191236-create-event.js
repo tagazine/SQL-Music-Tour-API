@@ -14,12 +14,15 @@ module.exports = {
       },
       date: {
         type: Sequelize.DATE,
+        allowNull: false,
       },
       start_time: {
         type: Sequelize.DATE,
+        allowNull: false,
       },
       end_time: {
         type: Sequelize.DATE,
+        allowNull: false,
       },
     });
   },
